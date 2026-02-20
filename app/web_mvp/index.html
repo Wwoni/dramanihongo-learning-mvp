@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DramaNihongo Web MVP</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <h1>DramaNihongo Web MVP</h1>
+        <div class="build">build: <span id="buildVersion">web-s1-20260219-01</span></div>
+      </header>
+
+      <main>
+        <section class="card" id="screenCard">
+          <p class="badge" id="screenBadge">LF-001</p>
+          <h2 id="screenTitle">Scene Intro</h2>
+          <p id="screenDesc">첫 학습을 시작해 보세요.</p>
+
+          <div class="actions" id="actions"></div>
+          <div class="runtimeTools">
+            <div id="runtimeStatus" class="runtimeStatus"></div>
+            <div class="actions">
+              <button id="toggleNetworkBtn">네트워크: ONLINE</button>
+              <button id="saveResumeBtn">중단 상태 저장</button>
+              <button id="restoreResumeBtn">복귀 상태 불러오기</button>
+              <button id="flushQueueBtn">큐 강제 전송</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h3>Runtime Evidence Quick Input</h3>
+          <div class="grid">
+            <label>Platform <input id="platformInput" value="web" /></label>
+            <label>Build Version <input id="versionInput" value="web-s1-20260219-01" /></label>
+          </div>
+          <button id="copyEvidenceBtn">qa/runtime_execution_evidence_s1.json 입력용 텍스트 복사</button>
+          <pre id="evidencePreview"></pre>
+        </section>
+
+        <section class="card">
+          <div class="eventHeader">
+            <h3>Event Log (MVP)</h3>
+            <button id="clearLogBtn">Clear</button>
+          </div>
+          <pre id="eventLog"></pre>
+        </section>
+      </main>
+    </div>
+    <script src="./app.js?v=20260220-02"></script>
+  </body>
+</html>

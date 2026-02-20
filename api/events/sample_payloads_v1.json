@@ -1,0 +1,109 @@
+{
+  "events": [
+    {
+      "event_id": "00000000-0000-4000-8000-000000000001",
+      "event_name": "lesson_started",
+      "occurred_at": "2026-02-19T09:00:00Z",
+      "user_id": "u_123",
+      "session_id": "s_abc",
+      "user_level": "N3",
+      "drama_id": "d_001",
+      "app_version": "1.0.0",
+      "platform": "ios",
+      "locale": "ko-KR",
+      "properties": {
+        "session_type": "quick",
+        "entry_point": "home"
+      }
+    },
+    {
+      "event_id": "00000000-0000-4000-8000-000000000002",
+      "event_name": "quiz_submitted",
+      "occurred_at": "2026-02-19T09:03:12Z",
+      "user_id": "u_123",
+      "session_id": "s_abc",
+      "user_level": "N3",
+      "drama_id": "d_001",
+      "line_id": "l_010",
+      "duration_sec": 22.4,
+      "app_version": "1.0.0",
+      "platform": "ios",
+      "locale": "ko-KR",
+      "properties": {
+        "quiz_type": "cloze",
+        "is_correct": false,
+        "attempt_no": 1
+      }
+    },
+    {
+      "event_id": "00000000-0000-4000-8000-000000000003",
+      "event_name": "srs_review_done",
+      "occurred_at": "2026-02-19T09:06:43Z",
+      "user_id": "u_123",
+      "session_id": "s_abc",
+      "user_level": "N3",
+      "drama_id": "d_001",
+      "line_id": "l_010",
+      "duration_sec": 18.1,
+      "app_version": "1.0.0",
+      "platform": "ios",
+      "locale": "ko-KR",
+      "properties": {
+        "card_result": "again",
+        "next_due_at": "2026-02-19T09:16:43Z"
+      }
+    },
+    {
+      "event_id": "00000000-0000-4000-8000-000000000004",
+      "event_name": "shadowing_recorded",
+      "occurred_at": "2026-02-19T09:08:01Z",
+      "user_id": "u_123",
+      "session_id": "s_abc",
+      "user_level": "N3",
+      "drama_id": "d_001",
+      "line_id": "l_010",
+      "app_version": "1.0.0",
+      "platform": "ios",
+      "locale": "ko-KR",
+      "properties": {
+        "recording_sec": 4.1,
+        "source_audio_sec": 3.8,
+        "speed_ratio": 1.08,
+        "retry_count": 0
+      }
+    },
+    {
+      "event_id": "00000000-0000-4000-8000-000000000005",
+      "event_name": "line_bookmarked",
+      "occurred_at": "2026-02-19T09:08:18Z",
+      "user_id": "u_123",
+      "session_id": "s_abc",
+      "user_level": "N3",
+      "drama_id": "d_001",
+      "line_id": "l_010",
+      "app_version": "1.0.0",
+      "platform": "ios",
+      "locale": "ko-KR",
+      "properties": {
+        "bookmark_type": "hard"
+      }
+    },
+    {
+      "event_id": "00000000-0000-4000-8000-000000000006",
+      "event_name": "subscription_started",
+      "occurred_at": "2026-02-19T09:20:00Z",
+      "user_id": "u_123",
+      "session_id": "s_checkout",
+      "user_level": "N3",
+      "app_version": "1.0.0",
+      "platform": "ios",
+      "locale": "ko-KR",
+      "properties": {
+        "plan_id": "premium_monthly",
+        "billing_cycle": "monthly",
+        "price": 9900,
+        "currency": "KRW"
+      }
+    }
+  ]
+}

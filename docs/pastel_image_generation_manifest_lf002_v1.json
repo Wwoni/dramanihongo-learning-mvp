@@ -1,0 +1,27 @@
+[
+  {
+    "asset_id": "IMG-LF002-001",
+    "topic_id": "daily_morning_greeting",
+    "prompt": "Create an original anime-style character illustration in soft pastel palette. Scene: early morning greeting in front of a station walkway. Character mood: joy and fresh energy. Pose: waist-up, friendly and readable for language card. Background: flat pastel gradient with subtle urban morning hint. Style tokens: soft pastel palette, clean line art, gentle lighting, slice-of-life japanese mood, no logo, no text, original character design. Aspect ratio: 1:1. Negative: no copyrighted character, no known anime franchise style imitation, no brand logo, no watermark, no text overlay, no realistic celebrity face."
+  },
+  {
+    "asset_id": "IMG-LF002-002",
+    "topic_id": "daily_rainy_day",
+    "prompt": "Create an original anime-style character illustration in soft pastel palette. Scene: rainy day conversation with umbrella in hand. Character mood: slightly sad but calm. Pose: waist-up, clear expression for learning card. Background: soft pastel rainy blur, no readable signs. Style tokens: soft pastel palette, clean line art, gentle lighting, slice-of-life japanese mood, no logo, no text, original character design. Aspect ratio: 1:1. Negative: no copyrighted character, no known anime franchise style imitation, no brand logo, no watermark, no text overlay, no realistic celebrity face."
+  },
+  {
+    "asset_id": "IMG-LF002-003",
+    "topic_id": "daily_roommate_talk",
+    "prompt": "Create an original anime-style character illustration in soft pastel palette. Scene: calm talk with roommate at home entrance. Character mood: neutral, polite. Pose: waist-up, one hand lightly gesturing. Background: minimal home interior pastel blur. Style tokens: soft pastel palette, clean line art, gentle lighting, slice-of-life japanese mood, no logo, no text, original character design. Aspect ratio: 1:1. Negative: no copyrighted character, no known anime franchise style imitation, no brand logo, no watermark, no text overlay, no realistic celebrity face."
+  },
+  {
+    "asset_id": "IMG-LF002-004",
+    "topic_id": "daily_study_group",
+    "prompt": "Create an original anime-style character illustration in soft pastel palette. Scene: study group conversation beside a notebook and pen. Character mood: neutral and focused. Pose: waist-up, attentive expression. Background: soft pastel desk corner, minimal details. Style tokens: soft pastel palette, clean line art, gentle lighting, slice-of-life japanese mood, no logo, no text, original character design. Aspect ratio: 1:1. Negative: no copyrighted character, no known anime franchise style imitation, no brand logo, no watermark, no text overlay, no realistic celebrity face."
+  },
+  {
+    "asset_id": "IMG-LF002-005",
+    "topic_id": "daily_lost_and_found",
+    "prompt": "Create an original anime-style character illustration in soft pastel palette. Scene: asking for help at a station information desk. Character mood: urgent but respectful. Pose: waist-up, slight anxious expression. Background: minimal station interior pastel blur, no readable text. Style tokens: soft pastel palette, clean line art, gentle lighting, slice-of-life japanese mood, no logo, no text, original character design. Aspect ratio: 1:1. Negative: no copyrighted character, no known anime franchise style imitation, no brand logo, no watermark, no text overlay, no realistic celebrity face."
+  }
+]

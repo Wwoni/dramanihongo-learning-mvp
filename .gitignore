@@ -1,0 +1,25 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Credentials
+util/credentials/
+*.pem
+*.key
+*.p12
+
+# Python/cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local outputs/logs
+outputs/
+*.log
+
+# Unrelated local project folders
+projects/
+
+# macOS
+.DS_Store

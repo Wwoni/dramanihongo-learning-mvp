@@ -1,0 +1,56 @@
+{
+  "run_date": "2026-02-19",
+  "build_version": "app-build-id",
+  "platform": "ios|android|web",
+  "scenarios": [
+    {
+      "id": "S1-01",
+      "name": "first_learning_loop",
+      "result": "pass|fail",
+      "evidence": "screenshot/log/event_id",
+      "issue_id": ""
+    },
+    {
+      "id": "S1-02",
+      "name": "bookmark_event",
+      "result": "pass|fail",
+      "evidence": "screenshot/log/event_id",
+      "issue_id": ""
+    },
+    {
+      "id": "S1-03",
+      "name": "shadowing_speed_feedback",
+      "result": "pass|fail",
+      "evidence": "screenshot/log/event_id",
+      "issue_id": ""
+    },
+    {
+      "id": "S1-04",
+      "name": "resume_after_interrupt",
+      "result": "pass|fail",
+      "evidence": "screenshot/log/event_id",
+      "issue_id": ""
+    },
+    {
+      "id": "S1-05",
+      "name": "network_retry",
+      "result": "pass|fail",
+      "evidence": "screenshot/log/event_id",
+      "issue_id": ""
+    },
+    {
+      "id": "S1-06",
+      "name": "subscription_started_event",
+      "result": "pass|fail",
+      "evidence": "screenshot/log/event_id",
+      "issue_id": ""
+    }
+  ],
+  "kpis": {
+    "event_collection_success_rate": null,
+    "event_missing_rate": null,
+    "schema_error_rate": null,
+    "ingest_latency_p95_sec": null
+  },
+  "p0_open_count": 0
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "asset_id": "IMG-LF001-001",
+    "topic_id": "daily_convenience_store",
+    "prompt": "Create an original anime-style character illustration in soft pastel palette. Scene: entering a small japanese convenience store in the evening. Character mood: neutral and focused. Outfit: modern casual, non-branded. Background: minimal japanese daily-life setting, convenience shelf blur. Style tokens: soft pastel palette, clean line art, gentle lighting, slice-of-life japanese mood, no logo, no text, original character design. Aspect ratio: 4:5. Negative: no copyrighted character, no known anime franchise style imitation, no brand logo, no watermark, no text overlay, no realistic celebrity face."
+  },
+  {
+    "asset_id": "IMG-LF001-002",
+    "topic_id": "daily_train_delay",
+    "prompt": "Create an original anime-style character illustration in soft pastel palette. Scene: station platform with delayed train notice vibe (no readable text). Character mood: urgent but calm. Outfit: commuting casual, non-branded. Background: minimal japanese train platform atmosphere. Style tokens: soft pastel palette, clean line art, gentle lighting, slice-of-life japanese mood, no logo, no text, original character design. Aspect ratio: 4:5. Negative: no copyrighted character, no known anime franchise style imitation, no brand logo, no watermark, no text overlay, no realistic celebrity face."
+  },
+  {
+    "asset_id": "IMG-LF001-003",
+    "topic_id": "daily_cafe_order",
+    "prompt": "Create an original anime-style character illustration in soft pastel palette. Scene: cozy japanese-style cafe counter moment. Character mood: light joy. Outfit: simple weekend casual, non-branded. Background: minimal cafe interior in pastel tones. Style tokens: soft pastel palette, clean line art, gentle lighting, slice-of-life japanese mood, no logo, no text, original character design. Aspect ratio: 4:5. Negative: no copyrighted character, no known anime franchise style imitation, no brand logo, no watermark, no text overlay, no realistic celebrity face."
+  },
+  {
+    "asset_id": "IMG-LF001-004",
+    "topic_id": "daily_office_checkin",
+    "prompt": "Create an original anime-style character illustration in soft pastel palette. Scene: arriving at a small office desk in the morning. Character mood: neutral, ready to work. Outfit: business-casual, non-branded. Background: minimal office corner, laptop and notebook. Style tokens: soft pastel palette, clean line art, gentle lighting, slice-of-life japanese mood, no logo, no text, original character design. Aspect ratio: 4:5. Negative: no copyrighted character, no known anime franchise style imitation, no brand logo, no watermark, no text overlay, no realistic celebrity face."
+  },
+  {
+    "asset_id": "IMG-LF001-005",
+    "topic_id": "daily_weekend_trip",
+    "prompt": "Create an original anime-style character illustration in soft pastel palette. Scene: preparing for a short weekend trip near a station. Character mood: joyful and relaxed. Outfit: travel casual, non-branded. Background: minimal japanese street morning atmosphere. Style tokens: soft pastel palette, clean line art, gentle lighting, slice-of-life japanese mood, no logo, no text, original character design. Aspect ratio: 4:5. Negative: no copyrighted character, no known anime franchise style imitation, no brand logo, no watermark, no text overlay, no realistic celebrity face."
+  }
+]

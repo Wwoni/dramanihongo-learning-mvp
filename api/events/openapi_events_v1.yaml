@@ -1,0 +1,130 @@
+openapi: 3.0.3
+info:
+  title: DramaNihongo Events API
+  version: 1.0.0
+  description: MVP event ingestion API for learning analytics.
+servers:
+  - url: https://api.example.com
+paths:
+  /v1/events:
+    post:
+      summary: Ingest one or more analytics events
+      operationId: ingestEvents
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [events]
+              properties:
+                events:
+                  type: array
+                  minItems: 1
+                  maxItems: 100
+                  items:
+                    $ref: '#/components/schemas/Event'
+      responses:
+        '202':
+          description: Accepted
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [accepted, rejected]
+                properties:
+                  accepted:
+                    type: integer
+                  rejected:
+                    type: integer
+                  errors:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/IngestError'
+        '400':
+          description: Invalid payload
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+components:
+  schemas:
+    Event:
+      type: object
+      required:
+        - event_id
+        - event_name
+        - occurred_at
+        - user_id
+        - session_id
+        - user_level
+        - app_version
+        - platform
+      properties:
+        event_id:
+          type: string
+          format: uuid
+        event_name:
+          type: string
+          enum:
+            - lesson_started
+            - line_bookmarked
+            - quiz_submitted
+            - srs_review_done
+            - shadowing_recorded
+            - subscription_started
+        occurred_at:
+          type: string
+          format: date-time
+        user_id:
+          type: string
+          minLength: 1
+        session_id:
+          type: string
+          minLength: 1
+        user_level:
+          type: string
+        drama_id:
+          type: string
+        line_id:
+          type: string
+        duration_sec:
+          type: number
+          minimum: 0
+        app_version:
+          type: string
+        platform:
+          type: string
+          enum: [ios, android, web]
+        locale:
+          type: string
+        properties:
+          type: object
+          additionalProperties: true
+      description: >
+        Event-specific fields should be stored in the "properties" object.
+        Required keys by event:
+        lesson_started.session_type,
+        line_bookmarked.bookmark_type,
+        quiz_submitted.quiz_type/is_correct/attempt_no,
+        srs_review_done.card_result/next_due_at,
+        shadowing_recorded.recording_sec/source_audio_sec,
+        subscription_started.plan_id/billing_cycle/price/currency.
+    IngestError:
+      type: object
+      required: [event_id, code, message]
+      properties:
+        event_id:
+          type: string
+        code:
+          type: string
+        message:
+          type: string
+    ErrorResponse:
+      type: object
+      required: [code, message]
+      properties:
+        code:
+          type: string
+        message:
+          type: string

@@ -1,0 +1,141 @@
+:root {
+  --bg: #f6f2eb;
+  --panel: #fffaf2;
+  --ink: #2d2a26;
+  --muted: #6b645d;
+  --line: #dfd6ca;
+  --accent: #e2a782;
+  --accent-2: #9fb8cf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: radial-gradient(circle at top left, #fce9dc 0%, var(--bg) 50%);
+  font-family: "Hiragino Sans", "Noto Sans KR", sans-serif;
+}
+
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.build {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+
+.badge {
+  display: inline-block;
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  color: #fff;
+  background: var(--accent-2);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+h2,
+h3 {
+  margin: 6px 0 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.runtimeTools {
+  margin-top: 14px;
+  border-top: 1px dashed var(--line);
+  padding-top: 10px;
+}
+
+.runtimeStatus {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+button {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+button.primary {
+  border: none;
+  background: var(--accent);
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 13px;
+}
+
+input {
+  width: 100%;
+  margin-top: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+pre {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 64px;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.eventHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

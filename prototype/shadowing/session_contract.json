@@ -1,0 +1,25 @@
+{
+  "line_id": "l_010",
+  "source_audio": {
+    "url": "https://cdn.example.com/audio/d_001/l_010.m4a",
+    "duration_sec": 3.8
+  },
+  "recording": {
+    "mime_type": "audio/m4a",
+    "duration_sec": 4.1
+  },
+  "feedback": {
+    "speed_ratio": 1.08,
+    "timing_grade": "good",
+    "feedback_text": "리듬이 좋아요. 한 번 더 또렷하게 말해보세요."
+  },
+  "event_payload": {
+    "event_name": "shadowing_recorded",
+    "properties": {
+      "recording_sec": 4.1,
+      "source_audio_sec": 3.8,
+      "speed_ratio": 1.08,
+      "retry_count": 0
+    }
+  }
+}

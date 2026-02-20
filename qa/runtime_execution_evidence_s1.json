@@ -1,0 +1,56 @@
+{
+  "run_date": "2026-02-20",
+  "build_version": "web-s1-20260219-01",
+  "platform": "web",
+  "scenarios": [
+    {
+      "id": "S1-01",
+      "name": "first_learning_loop",
+      "result": "pass",
+      "evidence": "lesson_started->line_bookmarked->quiz_submitted->srs_review_done->shadowing_recorded->subscription_started 순서 로그 확인 (docs/runtime_log_validation_20260220_v3.md)",
+      "issue_id": ""
+    },
+    {
+      "id": "S1-02",
+      "name": "bookmark_event",
+      "result": "pass",
+      "evidence": "line_bookmarked event_id=f17c372b-8fc3-462c-bc43-e39562ac688a, properties.bookmark_type=favorite",
+      "issue_id": ""
+    },
+    {
+      "id": "S1-03",
+      "name": "shadowing_speed_feedback",
+      "result": "pass",
+      "evidence": "shadowing_recorded event_id=47f503cb-8783-4138-bc8d-a62575a8fa22, properties.recording_sec/source_audio_sec/speed_ratio 확인",
+      "issue_id": ""
+    },
+    {
+      "id": "S1-04",
+      "name": "resume_after_interrupt",
+      "result": "pass",
+      "evidence": "runtime_checkpoint_saved(reason=manual_interrupt/beforeunload) + runtime_checkpoint_restored(reason=visibility_hidden, screen=LF-002) 로그 확인",
+      "issue_id": ""
+    },
+    {
+      "id": "S1-05",
+      "name": "network_retry",
+      "result": "pass",
+      "evidence": "queued_event(line_bookmarked) 이후 delivered_from_queue=true, delivered_at 기록 확인",
+      "issue_id": ""
+    },
+    {
+      "id": "S1-06",
+      "name": "subscription_started_event",
+      "result": "pass",
+      "evidence": "subscription_started event_id=19d10efb-e111-4639-b7f2-0ce24bd5ea09, plan_id/billing_cycle/price/currency 확인",
+      "issue_id": ""
+    }
+  ],
+  "kpis": {
+    "event_collection_success_rate": 100,
+    "event_missing_rate": 0,
+    "schema_error_rate": 0,
+    "ingest_latency_p95_sec": 3.7
+  },
+  "p0_open_count": 0
+}

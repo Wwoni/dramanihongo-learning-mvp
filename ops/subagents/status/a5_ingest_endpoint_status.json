@@ -1,0 +1,13 @@
+{
+  "task_id": "T-20260220-INGEST-ENDPOINT",
+  "owner": "A5_Backend_Data",
+  "status": "pending",
+  "updated_at_utc": null,
+  "evidence": {
+    "ingest_base_url_set": false,
+    "live_validation_overall_pass": null
+  },
+  "blockers": [
+    "INGEST_BASE_URL missing"
+  ]
+}
