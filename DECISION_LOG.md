@@ -591,3 +591,16 @@
 - [Rationale] control tower 3/3 completed, runtime gate GO, ingest live validation PASS 확인
 - [Impact] `SPRINT_01_TASK_BOARD.md`, `SPRINT_01_REVIEW_AND_GONOGO.md` 최종 상태 갱신
 - [Follow-up] Sprint 02에서 실서버 endpoint 전환/모바일 정식 클라이언트 이관
+
+### [Decision ID] D-20260222-002
+- [Date] 2026-02-22
+- [Status] Approved
+- [Owner] Main Agent
+- [Context] Sprint 01 종료 후 즉시 실행 가능한 Sprint 02 착수 패키지 필요
+- [Options]
+  - A) 회의 후 추후 문서화
+  - B) Task board + subagent work orders + control tower를 즉시 생성
+- [Decision] B) 착수 패키지 즉시 생성
+- [Rationale] 실행 공백을 줄이고 서브에이전트 병렬 착수를 가능하게 해야 함
+- [Impact] `SPRINT_02_TASK_BOARD.md`, `ops/subagents/sprint_02/*`, `scripts/run_subagent_control_tower_s2.py`, `docs/sprint_02_execution_plan_20260223.md` 추가
+- [Follow-up] Day 1 종료 시점에 최소 2개 task를 `in_progress`로 전환하고 control tower 재생성
