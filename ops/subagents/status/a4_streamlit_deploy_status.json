@@ -2,10 +2,10 @@
   "task_id": "T-20260220-STREAMLIT-DEPLOY",
   "owner": "A4_App_Client",
   "status": "in_progress",
-  "updated_at_utc": "2026-02-20T18:58:46.022378+00:00",
+  "updated_at_utc": "2026-02-20T20:12:00.000000+00:00",
   "evidence": {
     "streamlit_url": null,
-    "deploy_log_note": "local smoke pass (HTTP 200 on localhost:8501)"
+    "deploy_log_note": "local smoke pass + GitHub repo published: https://github.com/Wwoni/dramanihongo-learning-mvp"
   },
   "blockers": [
     "requires Streamlit Cloud account login/deploy click"

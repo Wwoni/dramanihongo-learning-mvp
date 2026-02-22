@@ -1,6 +1,6 @@
 # Subagent Control Tower (2026-02-20)
 
-- generated_at_utc: `2026-02-20T18:58:46.071148+00:00`
+- generated_at_utc: `2026-02-22T12:50:01.032691+00:00`
 - ingest_base_url_set: `False`
 
 ## 1) Summary
