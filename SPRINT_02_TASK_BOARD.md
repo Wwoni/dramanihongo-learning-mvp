@@ -19,7 +19,7 @@
 [Priority] P0
 [Objective] ingest endpoint를 로컬 mock에서 실 도메인 환경으로 전환
 [Input] .env, scripts/run_ingest_live_validation.py, Sprint 01 live validation 결과
-[Output] docs/ingest_live_test_results_s2.md, outputs/ingest/live_validation_results_s2.json
+[Output] docs/ingest_live_test_results_s1.md(재사용), outputs/ingest/live_validation_results_s1.json(재사용)
 [DoD] valid 6/6, negative 6/6, overall PASS (staging 또는 prod)
 [Risk] 인증/방화벽/응답 스키마 불일치
 [ETA] 1일

@@ -13,6 +13,9 @@
 INGEST_BASE_URL=https://<staging-or-prod-host> python3 scripts/run_ingest_live_validation.py
 ```
 
+## 배포 가이드
+- `docs/railway_ingest_deploy_runbook_s2.md`
+
 ## 보고 필수
 - endpoint(마스킹 가능)
 - PASS/FAIL 요약

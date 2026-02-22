@@ -7,6 +7,7 @@ python3 scripts/run_subagent_control_tower_s2.py
 
 ## 2) Main Agent 지휘 순서
 1. A5에 실 ingest endpoint 전환 작업 착수 (`T-20260223-101`)
+   - 배포 런북: `docs/railway_ingest_deploy_runbook_s2.md`
 2. A4에 모바일 PoC 프레임워크 확정 + LF-001~LF-006 이관 착수 (`T-20260223-102`)
 3. A7에 S2 QA 리포트 템플릿 준비 지시 (`T-20260223-103`)
 

@@ -604,3 +604,16 @@
 - [Rationale] 실행 공백을 줄이고 서브에이전트 병렬 착수를 가능하게 해야 함
 - [Impact] `SPRINT_02_TASK_BOARD.md`, `ops/subagents/sprint_02/*`, `scripts/run_subagent_control_tower_s2.py`, `docs/sprint_02_execution_plan_20260223.md` 추가
 - [Follow-up] Day 1 종료 시점에 최소 2개 task를 `in_progress`로 전환하고 control tower 재생성
+
+### [Decision ID] D-20260222-003
+- [Date] 2026-02-22
+- [Status] Approved
+- [Owner] Main Agent
+- [Context] 실 ingest endpoint 확보를 개인 개발 환경에서 직접 진행할 배포 경로 필요
+- [Options]
+  - A) 로컬 mock endpoint 유지
+  - B) Railway 배포용 ingest API 코드/설정 추가
+- [Decision] B) Railway 배포용 ingest API 코드/설정 추가
+- [Rationale] Sprint 02 P0(`T-20260223-101`)의 실 endpoint 검증을 충족하려면 외부 URL 기반 API가 필요함
+- [Impact] `services/ingest_api/main.py`, `railway.toml`, `docs/railway_ingest_deploy_runbook_s2.md` 추가
+- [Follow-up] Railway 배포 후 `INGEST_BASE_URL`를 서비스 URL로 갱신해 live validation 실행
