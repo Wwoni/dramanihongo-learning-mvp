@@ -1,6 +1,6 @@
 # Runtime Evidence Lint Report S1
 
-- 작성일: 2026-02-20
+- 작성일: 2026-02-22
 - 실행 스크립트: `scripts/run_runtime_evidence_lint_s1.py`
 - 결과 JSON: `outputs/qa/runtime_evidence_lint_s1.json`
 

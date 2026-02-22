@@ -1,6 +1,6 @@
 # Ingest Live Test Results S1
 
-- 작성일: 2026-02-21
+- 작성일: 2026-02-22
 - 실행 스크립트: `scripts/run_ingest_live_validation.py`
 - 결과 JSON: `outputs/ingest/live_validation_results_s1.json`
 
@@ -11,7 +11,7 @@
 ## 2) Valid Cases
 | event_name | http | latency_ms | result |
 |---|---|---|---|
-| lesson_started | 202 | 3 | PASS |
+| lesson_started | 202 | 4 | PASS |
 | quiz_submitted | 202 | 0 | PASS |
 | srs_review_done | 202 | 0 | PASS |
 | shadowing_recorded | 202 | 0 | PASS |

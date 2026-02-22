@@ -1,9 +1,9 @@
 # Ops Snapshot S1
 
-- Generated at (UTC): `2026-02-22T12:55:56.290437+00:00`
+- Generated at (UTC): `2026-02-22T13:07:34.978995+00:00`
 
 ## 1) Status
-- ingest base url configured: `False`
+- ingest base url configured: `True`
 - ingest live validation pass: `True`
 - runtime gate: `GO`
 - runtime gate pass: `True`
@@ -16,5 +16,4 @@
 - `qa/runtime_execution_evidence_s1.json`
 
 ## 3) Next Priority
-1. A5_Backend_Data: set INGEST_BASE_URL and run ingest live validation against staging/prod
-2. Main Agent: refresh Sprint board/review and make final release decision after ingest production check
+1. Main Agent: refresh Sprint board/review and make final release decision after ingest production check

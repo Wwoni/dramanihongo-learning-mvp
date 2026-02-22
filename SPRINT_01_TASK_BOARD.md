@@ -100,9 +100,9 @@
 |---|---|---|
 | T-20260219-001 | completed | LF-001/LF-002 이미지 10장 `approved/verified` + 외부 샘플 10건 파일/문장 검증 완료 |
 | T-20260219-002 | completed | `docs/learning_loop_spec_v1.md` 작성 및 스키마/루프 정의 완료 |
-| T-20260219-003 | in_progress | 정적+런타임 유사 하네스 Pass + 라이브 검증(로컬 모의 endpoint) Pass, 운영/스테이징 endpoint 실측만 잔여 |
-| T-20260219-004 | in_progress | `app/learning_flow/*` 화면/상태/API 매핑 초안 작성 완료 |
-| T-20260219-005 | in_progress | `docs/shadowing_mvp_spec_v1.md`, `prototype/shadowing/*` 초안 작성 완료 |
+| T-20260219-003 | completed | 정적+런타임 유사 하네스 Pass + 라이브 검증 Pass(`docs/ingest_live_test_results_s1.md`) |
+| T-20260219-004 | completed | `app/web_mvp/*` 실행 MVP + Streamlit 배포 URL 확보 |
+| T-20260219-005 | completed | 쉐도잉 MVP 규칙/프로토타입 + runtime event 검증 완료 |
 | T-20260219-006 | completed | runtime evidence lint PASS + runtime gate GO(`docs/runtime_gate_report_s1.md`), S1-01~S1-06 Pass |
 | T-20260219-007 | completed | `docs/retention_experiment_s1.md` 작성 및 실험 4개 정의 완료 |
 

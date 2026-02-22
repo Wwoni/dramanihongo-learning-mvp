@@ -578,3 +578,16 @@
 - [Rationale] 운영 중 상태 파일 오입력을 줄이고 컨트롤 타워 집계 일관성 확보
 - [Impact] `scripts/update_subagent_status.py`, `docs/subagent_status_update_examples_20260220.md` 추가
 - [Follow-up] A4/A5 완료 시 스크립트 기반으로 status 갱신 후 control tower 재생성
+
+### [Decision ID] D-20260222-001
+- [Date] 2026-02-22
+- [Status] Approved
+- [Owner] Main Agent
+- [Context] A4/A5/A7 서브에이전트 작업이 완료되어 Sprint 01 최종 판정 필요
+- [Options]
+  - A) in_progress 유지
+  - B) Sprint 01 GO로 종료
+- [Decision] B) Sprint 01 GO로 종료
+- [Rationale] control tower 3/3 completed, runtime gate GO, ingest live validation PASS 확인
+- [Impact] `SPRINT_01_TASK_BOARD.md`, `SPRINT_01_REVIEW_AND_GONOGO.md` 최종 상태 갱신
+- [Follow-up] Sprint 02에서 실서버 endpoint 전환/모바일 정식 클라이언트 이관
