@@ -13,7 +13,6 @@ jobs:
     env:
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       GSHEET_MONITOR_SLACK_WEBHOOK_URL: ${{ secrets.GSHEET_MONITOR_SLACK_WEBHOOK_URL }}
-      GSHEET_MONITOR_CONFIG_JSON: ${{ secrets.GSHEET_MONITOR_CONFIG_JSON }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,15 +25,6 @@ jobs:
       - name: Install dependencies
         working-directory: projects/gsheet_60day_monitor
         run: pip install -r requirements.txt
-
-      - name: Prepare config.json
-        working-directory: projects/gsheet_60day_monitor
-        run: |
-          if [ -n "${GSHEET_MONITOR_CONFIG_JSON}" ]; then
-            printf '%s' "${GSHEET_MONITOR_CONFIG_JSON}" > config.json
-          else
-            cp config.example.json config.json
-          fi
 
       - name: Dry run
         working-directory: projects/gsheet_60day_monitor
