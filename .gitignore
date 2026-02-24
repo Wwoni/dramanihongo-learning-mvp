@@ -20,11 +20,6 @@ outputs/
 
 # Unrelated local project folders
 projects/
-!projects/
-!projects/gsheet_60day_monitor/
-!projects/gsheet_60day_monitor/**
-projects/gsheet_60day_monitor/logs/
-projects/gsheet_60day_monitor/.oauth_token.json
 
 # macOS
 .DS_Store
